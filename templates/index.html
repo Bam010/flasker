@@ -1,0 +1,16 @@
+<h1>Hello World!</h1>
+
+<p>this is my first webpage</p>
+
+<p>My name is {{name}}</p>
+
+<!-- <p>{{stuff|safe}}</p> -->
+<p>{{stuff|striptags}}</p>
+
+
+{% for col in fav_col%}
+	{{col}}<br/>
+{% endfor %}
+
+<br></br>
+{{ fav_col.0 }}
